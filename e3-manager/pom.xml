@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>cn.e3mall</groupId>
+        <artifactId>e3-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>e3-manager</artifactId>
+    <packaging>pom</packaging>
+    <name>后台管理系统，聚合工程POM</name>
+
+    <!-- 添加依赖 -->
+    <dependencies>
+        <dependency>
+            <groupId>cn.e3mall</groupId>
+            <artifactId>e3-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+    <!-- 添加tomcat插件，此处不用写版本号 -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <!-- 不配置Tomcat7插件，也能运行。不过默认的端口是8080，path就是工程的名称 -->
+                <configuration>
+                    <port>8080</port>
+                    <path>/</path>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <modules>
+
+        <module>e3-manager-pojo</module>
+        <module>e3-manager-dao</module>
+        <module>e3-manager-interface</module>
+        <module>e3-manager-service</module>
+        <module>e3-manager-web</module>
+    </modules>
+
+
+</project>
