@@ -91,8 +91,7 @@
             </element>
             <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.2.8" />
             <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.2" />
-            <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:5.1.8" />
-            <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:1.2" />
+            <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:3.4.2-fix" />
             <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.12" />
             <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.6.0" />
             <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.9" />
@@ -408,26 +407,15 @@
         <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.2/jackson-databind-2.4.2-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: com.github.jsqlparser:jsqlparser:1.2">
+    <library name="Maven: com.github.pagehelper:pagehelper:3.4.2-fix">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.m2/repository/com/github/jsqlparser/jsqlparser/1.2/jsqlparser-1.2.jar!/" />
+        <root url="jar://$USER_HOME$/.m2/repository/com/github/pagehelper/pagehelper/3.4.2-fix/pagehelper-3.4.2-fix.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$USER_HOME$/.m2/repository/com/github/jsqlparser/jsqlparser/1.2/jsqlparser-1.2-javadoc.jar!/" />
+        <root url="jar://$USER_HOME$/.m2/repository/com/github/pagehelper/pagehelper/3.4.2-fix/pagehelper-3.4.2-fix-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$USER_HOME$/.m2/repository/com/github/jsqlparser/jsqlparser/1.2/jsqlparser-1.2-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.github.pagehelper:pagehelper:5.1.8">
-      <CLASSES>
-        <root url="jar://$USER_HOME$/.m2/repository/com/github/pagehelper/pagehelper/5.1.8/pagehelper-5.1.8.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$USER_HOME$/.m2/repository/com/github/pagehelper/pagehelper/5.1.8/pagehelper-5.1.8-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$USER_HOME$/.m2/repository/com/github/pagehelper/pagehelper/5.1.8/pagehelper-5.1.8-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.m2/repository/com/github/pagehelper/pagehelper/3.4.2-fix/pagehelper-3.4.2-fix-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.github.sgroschupf:zkclient:0.1">
