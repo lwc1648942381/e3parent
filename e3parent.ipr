@@ -2,22 +2,84 @@
 <project version="4">
   <component name="ArtifactManager">
     <artifact type="war" name="e3-manager-web:war">
-      <output-path>$PROJECT_DIR$/e3-manager/e3-manager-web/target</output-path>
+      <output-path>$PROJECT_DIR$/e3-manager-web/target</output-path>
       <root id="archive" name="e3-manager-web.war">
         <element id="artifact" artifact-name="e3-manager-web:war exploded" />
       </root>
     </artifact>
     <artifact type="exploded-war" name="e3-manager-web:war exploded">
-      <output-path>$PROJECT_DIR$/e3-manager/e3-manager-web/target/e3-manager-web</output-path>
+      <output-path>$PROJECT_DIR$/e3-manager-web/target/e3-manager-web</output-path>
       <root id="root">
         <element id="directory" name="WEB-INF">
           <element id="directory" name="classes">
             <element id="module-output" name="e3-manager-web" />
           </element>
           <element id="directory" name="lib">
-            <element id="archive" name="e3-manager-service-1.0-SNAPSHOT.jar">
-              <element id="module-output" name="e3-manager-service" />
+            <element id="archive" name="e3-manager-interface-1.0-SNAPSHOT.jar">
+              <element id="module-output" name="e3-manager-interface" />
             </element>
+            <element id="archive" name="e3-manager-pojo-1.0-SNAPSHOT.jar">
+              <element id="module-output" name="e3-manager-pojo" />
+            </element>
+            <element id="archive" name="e3-common-1.0-SNAPSHOT.jar">
+              <element id="module-output" name="e3-common" />
+            </element>
+            <element id="library" level="project" name="Maven: joda-time:joda-time:2.5" />
+            <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.3.2" />
+            <element id="library" level="project" name="Maven: commons-io:commons-io:1.3.2" />
+            <element id="library" level="project" name="Maven: commons-net:commons-net:3.3" />
+            <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.4.2" />
+            <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.4.0" />
+            <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.4.2" />
+            <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.1" />
+            <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.5.3" />
+            <element id="library" level="project" name="Maven: org.javassist:javassist:3.15.0-GA" />
+            <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.4.7" />
+            <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.1" />
+            <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.4" />
+            <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
+            <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
+            <element id="library" level="project" name="Maven: io.netty:netty:3.7.0.Final" />
+            <element id="library" level="project" name="Maven: com.github.sgroschupf:zkclient:0.1" />
+            <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-context:4.1.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.1.3.RELEASE" />
+            <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-core:4.1.3.RELEASE" />
+            <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.1.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.1.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.1.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.1.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-aspects:4.1.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.4" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.1.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.1.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-web:4.1.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-jms:4.1.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-messaging:4.1.3.RELEASE" />
+          </element>
+        </element>
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/e3-manager-web/target/e3-manager-web/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="javaee-facet-resources" facet="e3-manager-web/web/Web" />
+      </root>
+    </artifact>
+    <artifact type="war" name="e3-manager-service:war">
+      <output-path>$PROJECT_DIR$/e3-manager/e3-manager-service/target</output-path>
+      <root id="archive" name="e3-manager-service.war">
+        <element id="artifact" artifact-name="e3-manager-service:war exploded" />
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="e3-manager-service:war exploded">
+      <output-path>$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service</output-path>
+      <root id="root">
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="e3-manager-service" />
+          </element>
+          <element id="directory" name="lib">
             <element id="archive" name="e3-manager-interface-1.0-SNAPSHOT.jar">
               <element id="module-output" name="e3-manager-interface" />
             </element>
@@ -50,7 +112,15 @@
             <element id="library" level="project" name="Maven: org.springframework:spring-web:4.1.3.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-jms:4.1.3.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-messaging:4.1.3.RELEASE" />
-            <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+            <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.5.3" />
+            <element id="library" level="project" name="Maven: org.javassist:javassist:3.15.0-GA" />
+            <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.4.7" />
+            <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.1" />
+            <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.4" />
+            <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
+            <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
+            <element id="library" level="project" name="Maven: io.netty:netty:3.7.0.Final" />
+            <element id="library" level="project" name="Maven: com.github.sgroschupf:zkclient:0.1" />
             <element id="archive" name="e3-common-1.0-SNAPSHOT.jar">
               <element id="module-output" name="e3-common" />
             </element>
@@ -62,15 +132,12 @@
             <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.4.0" />
             <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.4.2" />
             <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.1" />
-            <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.4" />
-            <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.4" />
-            <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
           </element>
         </element>
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/e3-manager/e3-manager-web/target/e3-manager-web/META-INF/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service/META-INF/MANIFEST.MF" />
         </element>
-        <element id="javaee-facet-resources" facet="e3-manager-web/web/Web" />
+        <element id="javaee-facet-resources" facet="e3-manager-service/web/Web" />
       </root>
     </artifact>
   </component>
@@ -105,15 +172,17 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/e3-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/e3-manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-manager-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/e3-manager/e3-manager-dao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/e3-manager/e3-manager-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/e3-manager/e3-manager-pojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/e3-manager/e3-manager-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/e3-manager/e3-manager-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/e3-parent" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/e3-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/e3-manager/e3-manager-service" />
     <file type="web" url="file://$PROJECT_DIR$/e3-manager/e3-manager-web" />
   </component>
   <component name="InspectionProjectProfileManager">
@@ -128,12 +197,8 @@
         <option value="$PROJECT_DIR$/e3-parent/pom.xml" />
         <option value="$PROJECT_DIR$/e3-common/pom.xml" />
         <option value="$PROJECT_DIR$/e3-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-manager-web/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/e3-manager/e3-manager-pojo/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="Palette2">
@@ -266,7 +331,7 @@
       <module fileurl="file://$PROJECT_DIR$/e3-manager/e3-manager-interface/e3-manager-interface.iml" filepath="$PROJECT_DIR$/e3-manager/e3-manager-interface/e3-manager-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3-manager/e3-manager-pojo/e3-manager-pojo.iml" filepath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/e3-manager-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3-manager/e3-manager-service/e3-manager-service.iml" filepath="$PROJECT_DIR$/e3-manager/e3-manager-service/e3-manager-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/e3-manager/e3-manager-web/e3-manager-web.iml" filepath="$PROJECT_DIR$/e3-manager/e3-manager-web/e3-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-manager-web/e3-manager-web.iml" filepath="$PROJECT_DIR$/e3-manager-web/e3-manager-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3-parent/e3-parent.iml" filepath="$PROJECT_DIR$/e3-parent/e3-parent.iml" />
     </modules>
   </component>
@@ -288,17 +353,6 @@
         <root url="jar://$USER_HOME$/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: cn.e3mall:e3-manager-pojo:1.0-SNAPSHOT">
-      <CLASSES>
-        <root url="jar://$USER_HOME$/.m2/repository/cn/e3mall/e3-manager-pojo/1.0-SNAPSHOT/e3-manager-pojo-1.0-SNAPSHOT.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$USER_HOME$/.m2/repository/cn/e3mall/e3-manager-pojo/1.0-SNAPSHOT/e3-manager-pojo-1.0-SNAPSHOT-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$USER_HOME$/.m2/repository/cn/e3mall/e3-manager-pojo/1.0-SNAPSHOT/e3-manager-pojo-1.0-SNAPSHOT-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: com.alibaba:druid:1.0.9">
       <CLASSES>
         <root url="jar://$USER_HOME$/.m2/repository/com/alibaba/druid/1.0.9/druid-1.0.9.jar!/" />
@@ -308,6 +362,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$USER_HOME$/.m2/repository/com/alibaba/druid/1.0.9/druid-1.0.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba:dubbo:2.5.3">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.m2/repository/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.m2/repository/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.m2/repository/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.4.0">
@@ -365,6 +430,17 @@
         <root url="jar://$USER_HOME$/.m2/repository/com/github/pagehelper/pagehelper/5.1.8/pagehelper-5.1.8-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.github.sgroschupf:zkclient:0.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.m2/repository/com/github/sgroschupf/zkclient/0.1/zkclient-0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.m2/repository/com/github/sgroschupf/zkclient/0.1/zkclient-0.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.m2/repository/com/github/sgroschupf/zkclient/0.1/zkclient-0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.google.protobuf:protobuf-java:2.6.0">
       <CLASSES>
         <root url="jar://$USER_HOME$/.m2/repository/com/google/protobuf/protobuf-java/2.6.0/protobuf-java-2.6.0.jar!/" />
@@ -420,6 +496,17 @@
         <root url="jar://$USER_HOME$/.m2/repository/commons-net/commons-net/3.3/commons-net-3.3-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: io.netty:netty:3.7.0.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: javax.servlet:jsp-api:2.0">
       <CLASSES>
         <root url="jar://$USER_HOME$/.m2/repository/javax/servlet/jsp-api/2.0/jsp-api-2.0.jar!/" />
@@ -440,6 +527,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$USER_HOME$/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: jline:jline:0.9.94">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.m2/repository/jline/jline/0.9.94/jline-0.9.94-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.m2/repository/jline/jline/0.9.94/jline-0.9.94-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: joda-time:joda-time:2.5">
@@ -497,6 +595,17 @@
         <root url="jar://$USER_HOME$/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.apache.zookeeper:zookeeper:3.4.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.m2/repository/org/apache/zookeeper/zookeeper/3.4.7/zookeeper-3.4.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.m2/repository/org/apache/zookeeper/zookeeper/3.4.7/zookeeper-3.4.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.m2/repository/org/apache/zookeeper/zookeeper/3.4.7/zookeeper-3.4.7-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.aspectj:aspectjweaver:1.8.4">
       <CLASSES>
         <root url="jar://$USER_HOME$/.m2/repository/org/aspectj/aspectjweaver/1.8.4/aspectjweaver-1.8.4.jar!/" />
@@ -506,6 +615,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$USER_HOME$/.m2/repository/org/aspectj/aspectjweaver/1.8.4/aspectjweaver-1.8.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.javassist:javassist:3.15.0-GA">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.m2/repository/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.m2/repository/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.m2/repository/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.mybatis:mybatis-spring:1.2.2">
@@ -528,6 +648,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.2.8/mybatis-3.2.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.slf4j:slf4j-api:1.6.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.slf4j:slf4j-api:1.6.4">
