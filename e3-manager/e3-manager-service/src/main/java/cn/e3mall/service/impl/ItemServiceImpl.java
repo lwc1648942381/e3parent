@@ -4,7 +4,7 @@ import cn.e3mall.mapper.TbItemMapper;
 import cn.e3mall.pojo.TbItem;
 import cn.e3mall.pojo.TbItemExample;
 import cn.e3mall.service.ItemService;
-import com.e3mall.common.pojo.EasyUIDataGridResult;
+import com.e3mall.common.utils.pojo.EasyUIDataGridResult;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
