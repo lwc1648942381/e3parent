@@ -11,6 +11,7 @@
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: fastdfs-client:fastdfs-client:1.25" level="project" />
     <orderEntry type="module" module-name="e3-manager-pojo" />
     <orderEntry type="module" module-name="e3-common" />
     <orderEntry type="library" name="Maven: joda-time:joda-time:2.5" level="project" />

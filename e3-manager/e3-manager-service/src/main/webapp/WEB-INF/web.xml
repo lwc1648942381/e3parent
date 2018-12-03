@@ -14,7 +14,14 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
 
-
+  <!--log4j日志配置-->
+  <context-param>
+    <param-name>log4jConfigLocation</param-name>
+    <param-value>classpath:conf/log4j.properties</param-value>
+  </context-param>
+  <listener>
+    <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
+  </listener>
 
   <!--加载spring容器-->
   <context-param>
