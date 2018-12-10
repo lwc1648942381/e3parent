@@ -19,10 +19,12 @@
 
     <!--加载配置文件-->
     <context:property-placeholder location="classpath:conf/resource.properties"/>
+
+
     <!--映射资源文件-->
     <!--引用dubbo服务-->
     <dubbo:application name="e3-manager-web" />
     <dubbo:registry protocol="zookeeper" address="192.168.25.31:2181"/>
-    <!--<dubbo:reference interface="cn.e3mall.service.ItemService" check="false" id="itemService"/>-->
+    <dubbo:reference interface="cn.e3mall.content.service.ContentService" check="false" id="contentService"/>
 
 </beans>
