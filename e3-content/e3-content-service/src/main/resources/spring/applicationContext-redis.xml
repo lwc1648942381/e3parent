@@ -6,7 +6,7 @@
         http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!--连接redis单机版-->
-    <bean id="jedisClientPool" class="com.e3mall.common.jedis.JedisClientPool">
+    <bean id="jedisClientPool" class="cn.e3mall.common.jedis.JedisClientPool">
         <property name="jedisPool" ref="jedisPool"></property>
     </bean>
 
@@ -15,7 +15,7 @@
         <constructor-arg name="port" value="6379"></constructor-arg>
     </bean>
     <!--&lt;!&ndash;连接redis集群&ndash;&gt;-->
-    <!--<bean class="com.e3mall.common.jedis.JedisClientCluster">-->
+    <!--<bean class="JedisClientCluster">-->
         <!--<property name="jedisCluster" ref="jedisCluster"></property>-->
     <!--</bean>-->
 

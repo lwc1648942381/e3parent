@@ -1,7 +1,7 @@
 package cn.e3mall.jedis;
 
 
-import com.e3mall.common.jedis.JedisClient;
+import cn.e3mall.common.jedis.JedisClient;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

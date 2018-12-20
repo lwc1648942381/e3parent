@@ -4,8 +4,8 @@ import cn.e3mall.content.service.ContentCategoryService;
 import cn.e3mall.mapper.TbContentCategoryMapper;
 import cn.e3mall.pojo.TbContentCategory;
 import cn.e3mall.pojo.TbContentCategoryExample;
-import com.e3mall.common.utils.pojo.E3Result;
-import com.e3mall.common.utils.pojo.EasyUITreeNode;
+import cn.e3mall.common.utils.pojo.E3Result;
+import cn.e3mall.common.utils.pojo.EasyUITreeNode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

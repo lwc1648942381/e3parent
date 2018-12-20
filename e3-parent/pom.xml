@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>../e3-content</module>
+        <module>../e3-search-web</module>
     </modules>
     <packaging>pom</packaging>
 

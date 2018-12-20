@@ -1,8 +1,8 @@
 package cn.e3mall.service;
 
 import cn.e3mall.pojo.TbItem;
-import com.e3mall.common.utils.pojo.E3Result;
-import com.e3mall.common.utils.pojo.EasyUIDataGridResult;
+import cn.e3mall.common.utils.pojo.E3Result;
+import cn.e3mall.common.utils.pojo.EasyUIDataGridResult;
 
 public interface ItemService {
     TbItem getItemById(long itemId);
