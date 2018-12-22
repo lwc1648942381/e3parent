@@ -3,7 +3,7 @@
          xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
          id="manong" version="2.5">
-  <display-name>e3-manager-web</display-name>
+  <display-name>e3-portal-web</display-name>
 
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
@@ -46,7 +46,7 @@
   <!--springmvc的前端控制器-->
 
   <servlet>
-    <servlet-name>e3-manager</servlet-name>
+    <servlet-name>e3-portal</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     <init-param>
       <param-name>contextConfigLocation</param-name>
@@ -55,7 +55,7 @@
     <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
-    <servlet-name>e3-manager</servlet-name>
+    <servlet-name>e3-portal</servlet-name>
     <!--伪静态页面-->
     <url-pattern>*.html</url-pattern>
   </servlet-mapping>

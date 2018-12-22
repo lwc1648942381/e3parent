@@ -11,7 +11,7 @@
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd">
 
 	<!-- 配置包扫描器 -->
-	<context:component-scan base-package="cn.e3mall.search"/>
+	<context:component-scan base-package="cn.e3mall.search,cn.e3mall.search.dao"/>
 	
 	<!-- 使用dubbo发布服务 -->
 	<!-- 提供方应用信息，用于计算依赖关系 -->
@@ -21,5 +21,7 @@
 	<dubbo:protocol name="dubbo" port="20882" />
 	<!-- 声明需要暴露的服务接口 -->
 	<dubbo:service interface="cn.e3mall.search.service.SearchItemService" ref="searchItemServiceImpl" timeout="600000"/>
+
+	<dubbo:service interface="cn.e3mall.search.service.SearchService" ref="searchServiceImpl" timeout="600000"/>
 
 </beans>

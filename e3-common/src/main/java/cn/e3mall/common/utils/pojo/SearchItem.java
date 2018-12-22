@@ -58,4 +58,12 @@ public class SearchItem implements Serializable {
 
     private String image;
     private String category_name;
+
+    public String[] getImages(){
+        if(image!=null&&!"".equals(image)){
+            String[] strings=image.split(",");
+            return strings;
+        }
+        return null;
+    }
 }
