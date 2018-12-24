@@ -20,7 +20,8 @@
 
     <!--加载配置文件-->
     <context:property-placeholder location="classpath:conf/resource.properties"/>
-
+    <!--全局异常处理器-->
+    <bean class="cn.e3mall.search.exception.GlobalExceptionResolver"/>
 
     <!--映射资源文件-->
     <!--引用dubbo服务-->
