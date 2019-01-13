@@ -1,0 +1,1004 @@
+2018-12-11 15:05:24 [INFO]-[org.springframework.web.context.ContextLoader] Root WebApplicationContext: initialization started
+2018-12-11 15:05:24 [INFO]-[org.springframework.web.context.support.XmlWebApplicationContext] Refreshing Root WebApplicationContext: startup date [Tue Dec 11 15:05:24 CST 2018]; root of context hierarchy
+2018-12-11 15:05:24 [INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [D:\e3\e3-manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+2018-12-11 15:05:24 [INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [D:\e3\e3-manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+2018-12-11 15:05:24 [INFO]-[com.alibaba.dubbo.common.logger.LoggerFactory] using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-12-11 15:05:24 [INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [D:\e3\e3-manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+2018-12-11 15:05:25 [INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer] Loading properties file from file [D:\e3\e3-manager\e3-manager-service\target\classes\conf\db.properties]
+2018-12-11 15:05:25 [INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer] Loading properties file from file [D:\e3\e3-manager\e3-manager-service\target\classes\conf\log4j.properties]
+2018-12-11 15:05:25 [INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-11 15:05:26 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2018-12-11 15:05:27 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] The service ready on spring started. service: cn.e3mall.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:05:27 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Export dubbo service cn.e3mall.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:05:27 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Export dubbo service cn.e3mall.service.ItemService to url dubbo://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=15020&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544511927485, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:05:27 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Register dubbo service cn.e3mall.service.ItemService url dubbo://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=15020&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544511927485 to registry registry://192.168.25.31:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=15020&registry=zookeeper&timestamp=1544511927435, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:05:27 [INFO]-[com.alibaba.dubbo.remoting.transport.AbstractServer]  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.25.1:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:05:28 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Load registry store file C:\Users\mr.luo\.dubbo\dubbo-registry-192.168.25.31.cache, data: {cn.e3mall.content.service.ContentCategoryService=empty://192.168.25.1/cn.e3mall.content.service.ContentCategoryService?application=e3-manager-web&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentCategoryService&methods=addContentCategory,delContentCategory,getContentCatList,updContentCategory&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426262482 empty://192.168.25.1/cn.e3mall.content.service.ContentCategoryService?application=e3-manager-web&category=routers&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentCategoryService&methods=addContentCategory,delContentCategory,getContentCatList,updContentCategory&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426262482 dubbo://192.168.25.1:20881/cn.e3mall.content.service.ContentCategoryService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentCategoryService&methods=addContentCategory,delContentCategory,getContentCatList,updContentCategory&pid=13468&side=provider&timeout=600000&timestamp=1544426228845, cn.e3mall.content.service.ContentService=empty://192.168.25.1/cn.e3mall.content.service.ContentService?application=e3-manager-web&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentService&methods=delContent,getContentList,updContent,addContent&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271839 empty://192.168.25.1/cn.e3mall.content.service.ContentService?application=e3-manager-web&category=routers&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentService&methods=delContent,getContentList,updContent,addContent&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271839 dubbo://192.168.25.1:20881/cn.e3mall.content.service.ContentService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentService&methods=delContent,getContentList,updContent,addContent&pid=13468&side=provider&timeout=600000&timestamp=1544426238455, cn.e3mall.service.ItemService=empty://192.168.25.1/cn.e3mall.service.ItemService?application=e3-manager-web&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271921 empty://192.168.25.1/cn.e3mall.service.ItemService?application=e3-manager-web&category=routers&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271921 empty://192.168.25.1/cn.e3mall.service.ItemService?application=e3-manager-web&category=providers&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271921, cn.e3mall.service.ItemCatService=empty://192.168.25.1/cn.e3mall.service.ItemCatService?application=e3-manager-web&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271880 empty://192.168.25.1/cn.e3mall.service.ItemCatService?application=e3-manager-web&category=routers&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271880 empty://192.168.25.1/cn.e3mall.service.ItemCatService?application=e3-manager-web&category=providers&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271880}, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:05:28 [INFO]-[org.I0Itec.zkclient.ZkEventThread] Starting ZkClient event thread.
+2018-12-11 15:05:38 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2018-12-11 15:05:38 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:host.name=DESKTOP-VCA5PST
+2018-12-11 15:05:38 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.version=1.8.0_191
+2018-12-11 15:05:38 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.vendor=Oracle Corporation
+2018-12-11 15:05:38 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.home=C:\Program Files\Java\jdk1.8.0_191\jre
+2018-12-11 15:05:38 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.class.path=D:\apache-maven-3.5.4\boot\plexus-classworlds-2.5.2.jar;D:\IntelliJ IDEA 2018.2.5\lib\idea_rt.jar
+2018-12-11 15:05:38 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Program Files (x86)\Java\jdk1.7.0_75\jre\bin;C:\WINDOWS\System32\OpenSSH\;D:\apache-maven-3.5.4\bin;C:\Program Files\Git\cmd;C:\Users\mr.luo\AppData\Local\Microsoft\WindowsApps;;.
+2018-12-11 15:05:38 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.io.tmpdir=C:\Users\mr.luo\AppData\Local\Temp\
+2018-12-11 15:05:38 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.compiler=<NA>
+2018-12-11 15:05:38 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:os.name=Windows 10
+2018-12-11 15:05:38 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:os.arch=amd64
+2018-12-11 15:05:38 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:os.version=10.0
+2018-12-11 15:05:38 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:user.name=mr.luo
+2018-12-11 15:05:38 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:user.home=C:\Users\mr.luo
+2018-12-11 15:05:38 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:user.dir=D:\e3\e3-manager\e3-manager-service
+2018-12-11 15:05:38 [INFO]-[org.apache.zookeeper.ZooKeeper] Initiating client connection, connectString=192.168.25.31:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@1acf518b
+2018-12-11 15:05:38 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:05:59 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:06:00 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:06:21 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:06:22 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:06:43 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:06:44 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:07:05 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:07:06 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:07:27 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:07:28 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:07:49 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:07:50 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:08:11 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:08:13 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:08:34 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:08:35 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:08:56 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:08:57 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:09:18 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:09:19 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:09:40 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:09:41 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:10:02 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:10:03 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:10:24 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:10:25 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:10:46 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:10:47 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:11:08 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:11:09 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:11:30 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:11:31 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:11:52 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:11:54 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:12:15 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:12:16 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:12:37 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:12:38 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:12:59 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:13:00 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:13:21 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:13:22 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:13:43 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:13:44 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:14:09 [INFO]-[org.springframework.web.context.ContextLoader] Root WebApplicationContext: initialization started
+2018-12-11 15:14:09 [INFO]-[org.springframework.web.context.support.XmlWebApplicationContext] Refreshing Root WebApplicationContext: startup date [Tue Dec 11 15:14:09 CST 2018]; root of context hierarchy
+2018-12-11 15:14:09 [INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [D:\e3\e3-manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+2018-12-11 15:14:09 [INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [D:\e3\e3-manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+2018-12-11 15:14:09 [INFO]-[com.alibaba.dubbo.common.logger.LoggerFactory] using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-12-11 15:14:09 [INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [D:\e3\e3-manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+2018-12-11 15:14:09 [INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer] Loading properties file from file [D:\e3\e3-manager\e3-manager-service\target\classes\conf\db.properties]
+2018-12-11 15:14:09 [INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer] Loading properties file from file [D:\e3\e3-manager\e3-manager-service\target\classes\conf\log4j.properties]
+2018-12-11 15:14:09 [INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-11 15:14:10 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2018-12-11 15:14:11 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] The service ready on spring started. service: cn.e3mall.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:14:11 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Export dubbo service cn.e3mall.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:14:11 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Export dubbo service cn.e3mall.service.ItemService to url dubbo://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=16072&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544512451041, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:14:11 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Register dubbo service cn.e3mall.service.ItemService url dubbo://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=16072&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544512451041 to registry registry://192.168.25.31:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=16072&registry=zookeeper&timestamp=1544512451024, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:14:11 [INFO]-[com.alibaba.dubbo.remoting.transport.AbstractServer]  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.25.1:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:14:11 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Load registry store file C:\Users\mr.luo\.dubbo\dubbo-registry-192.168.25.31.cache, data: {cn.e3mall.content.service.ContentCategoryService=empty://192.168.25.1/cn.e3mall.content.service.ContentCategoryService?application=e3-manager-web&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentCategoryService&methods=addContentCategory,delContentCategory,getContentCatList,updContentCategory&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426262482 empty://192.168.25.1/cn.e3mall.content.service.ContentCategoryService?application=e3-manager-web&category=routers&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentCategoryService&methods=addContentCategory,delContentCategory,getContentCatList,updContentCategory&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426262482 dubbo://192.168.25.1:20881/cn.e3mall.content.service.ContentCategoryService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentCategoryService&methods=addContentCategory,delContentCategory,getContentCatList,updContentCategory&pid=13468&side=provider&timeout=600000&timestamp=1544426228845, cn.e3mall.content.service.ContentService=empty://192.168.25.1/cn.e3mall.content.service.ContentService?application=e3-manager-web&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentService&methods=delContent,getContentList,updContent,addContent&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271839 empty://192.168.25.1/cn.e3mall.content.service.ContentService?application=e3-manager-web&category=routers&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentService&methods=delContent,getContentList,updContent,addContent&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271839 dubbo://192.168.25.1:20881/cn.e3mall.content.service.ContentService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentService&methods=delContent,getContentList,updContent,addContent&pid=13468&side=provider&timeout=600000&timestamp=1544426238455, cn.e3mall.service.ItemService=empty://192.168.25.1/cn.e3mall.service.ItemService?application=e3-manager-web&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271921 empty://192.168.25.1/cn.e3mall.service.ItemService?application=e3-manager-web&category=routers&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271921 empty://192.168.25.1/cn.e3mall.service.ItemService?application=e3-manager-web&category=providers&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271921, cn.e3mall.service.ItemCatService=empty://192.168.25.1/cn.e3mall.service.ItemCatService?application=e3-manager-web&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271880 empty://192.168.25.1/cn.e3mall.service.ItemCatService?application=e3-manager-web&category=routers&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271880 empty://192.168.25.1/cn.e3mall.service.ItemCatService?application=e3-manager-web&category=providers&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271880}, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:14:11 [INFO]-[org.I0Itec.zkclient.ZkEventThread] Starting ZkClient event thread.
+2018-12-11 15:14:20 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2018-12-11 15:14:20 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:host.name=DESKTOP-VCA5PST
+2018-12-11 15:14:20 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.version=1.8.0_191
+2018-12-11 15:14:20 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.vendor=Oracle Corporation
+2018-12-11 15:14:20 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.home=C:\Program Files\Java\jdk1.8.0_191\jre
+2018-12-11 15:14:20 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.class.path=D:\apache-maven-3.5.4\boot\plexus-classworlds-2.5.2.jar;D:\IntelliJ IDEA 2018.2.5\lib\idea_rt.jar
+2018-12-11 15:14:20 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Program Files (x86)\Java\jdk1.7.0_75\jre\bin;C:\WINDOWS\System32\OpenSSH\;D:\apache-maven-3.5.4\bin;C:\Program Files\Git\cmd;C:\Users\mr.luo\AppData\Local\Microsoft\WindowsApps;;.
+2018-12-11 15:14:20 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.io.tmpdir=C:\Users\mr.luo\AppData\Local\Temp\
+2018-12-11 15:14:20 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.compiler=<NA>
+2018-12-11 15:14:20 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:os.name=Windows 10
+2018-12-11 15:14:20 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:os.arch=amd64
+2018-12-11 15:14:20 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:os.version=10.0
+2018-12-11 15:14:20 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:user.name=mr.luo
+2018-12-11 15:14:20 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:user.home=C:\Users\mr.luo
+2018-12-11 15:14:20 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:user.dir=D:\e3\e3-manager\e3-manager-service
+2018-12-11 15:14:20 [INFO]-[org.apache.zookeeper.ZooKeeper] Initiating client connection, connectString=192.168.25.31:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@2cd9db8e
+2018-12-11 15:14:20 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:14:41 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:14:42 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:15:03 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:15:04 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:32:17 [INFO]-[org.springframework.web.context.ContextLoader] Root WebApplicationContext: initialization started
+2018-12-11 15:32:17 [INFO]-[org.springframework.web.context.support.XmlWebApplicationContext] Refreshing Root WebApplicationContext: startup date [Tue Dec 11 15:32:17 CST 2018]; root of context hierarchy
+2018-12-11 15:32:17 [INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [D:\e3\e3-manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+2018-12-11 15:32:17 [INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [D:\e3\e3-manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+2018-12-11 15:32:17 [INFO]-[com.alibaba.dubbo.common.logger.LoggerFactory] using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-12-11 15:32:17 [INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [D:\e3\e3-manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+2018-12-11 15:32:17 [INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer] Loading properties file from file [D:\e3\e3-manager\e3-manager-service\target\classes\conf\db.properties]
+2018-12-11 15:32:17 [INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer] Loading properties file from file [D:\e3\e3-manager\e3-manager-service\target\classes\conf\log4j.properties]
+2018-12-11 15:32:17 [INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-11 15:32:18 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2018-12-11 15:32:19 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] The service ready on spring started. service: cn.e3mall.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:32:19 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Export dubbo service cn.e3mall.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:32:19 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Export dubbo service cn.e3mall.service.ItemService to url dubbo://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=4128&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544513539052, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:32:19 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Register dubbo service cn.e3mall.service.ItemService url dubbo://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=4128&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544513539052 to registry registry://192.168.25.31:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=4128&registry=zookeeper&timestamp=1544513539038, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:32:19 [INFO]-[com.alibaba.dubbo.remoting.transport.AbstractServer]  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.25.1:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:32:19 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Load registry store file C:\Users\mr.luo\.dubbo\dubbo-registry-192.168.25.31.cache, data: {cn.e3mall.content.service.ContentCategoryService=empty://192.168.25.1/cn.e3mall.content.service.ContentCategoryService?application=e3-manager-web&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentCategoryService&methods=addContentCategory,delContentCategory,getContentCatList,updContentCategory&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426262482 empty://192.168.25.1/cn.e3mall.content.service.ContentCategoryService?application=e3-manager-web&category=routers&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentCategoryService&methods=addContentCategory,delContentCategory,getContentCatList,updContentCategory&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426262482 dubbo://192.168.25.1:20881/cn.e3mall.content.service.ContentCategoryService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentCategoryService&methods=addContentCategory,delContentCategory,getContentCatList,updContentCategory&pid=13468&side=provider&timeout=600000&timestamp=1544426228845, cn.e3mall.content.service.ContentService=empty://192.168.25.1/cn.e3mall.content.service.ContentService?application=e3-manager-web&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentService&methods=delContent,getContentList,updContent,addContent&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271839 empty://192.168.25.1/cn.e3mall.content.service.ContentService?application=e3-manager-web&category=routers&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentService&methods=delContent,getContentList,updContent,addContent&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271839 dubbo://192.168.25.1:20881/cn.e3mall.content.service.ContentService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentService&methods=delContent,getContentList,updContent,addContent&pid=13468&side=provider&timeout=600000&timestamp=1544426238455, cn.e3mall.service.ItemService=empty://192.168.25.1/cn.e3mall.service.ItemService?application=e3-manager-web&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271921 empty://192.168.25.1/cn.e3mall.service.ItemService?application=e3-manager-web&category=routers&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271921 empty://192.168.25.1/cn.e3mall.service.ItemService?application=e3-manager-web&category=providers&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271921, cn.e3mall.service.ItemCatService=empty://192.168.25.1/cn.e3mall.service.ItemCatService?application=e3-manager-web&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271880 empty://192.168.25.1/cn.e3mall.service.ItemCatService?application=e3-manager-web&category=routers&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271880 empty://192.168.25.1/cn.e3mall.service.ItemCatService?application=e3-manager-web&category=providers&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271880}, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:32:19 [INFO]-[org.I0Itec.zkclient.ZkEventThread] Starting ZkClient event thread.
+2018-12-11 15:32:28 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2018-12-11 15:32:28 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:host.name=DESKTOP-VCA5PST
+2018-12-11 15:32:28 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.version=1.8.0_191
+2018-12-11 15:32:28 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.vendor=Oracle Corporation
+2018-12-11 15:32:28 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.home=C:\Program Files\Java\jdk1.8.0_191\jre
+2018-12-11 15:32:28 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.class.path=D:\apache-maven-3.5.4\boot\plexus-classworlds-2.5.2.jar;D:\IntelliJ IDEA 2018.2.5\lib\idea_rt.jar
+2018-12-11 15:32:28 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Program Files (x86)\Java\jdk1.7.0_75\jre\bin;C:\WINDOWS\System32\OpenSSH\;D:\apache-maven-3.5.4\bin;C:\Program Files\Git\cmd;C:\Users\mr.luo\AppData\Local\Microsoft\WindowsApps;;.
+2018-12-11 15:32:28 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.io.tmpdir=C:\Users\mr.luo\AppData\Local\Temp\
+2018-12-11 15:32:28 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.compiler=<NA>
+2018-12-11 15:32:28 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:os.name=Windows 10
+2018-12-11 15:32:28 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:os.arch=amd64
+2018-12-11 15:32:28 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:os.version=10.0
+2018-12-11 15:32:28 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:user.name=mr.luo
+2018-12-11 15:32:28 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:user.home=C:\Users\mr.luo
+2018-12-11 15:32:28 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:user.dir=D:\e3\e3-manager\e3-manager-service
+2018-12-11 15:32:28 [INFO]-[org.apache.zookeeper.ZooKeeper] Initiating client connection, connectString=192.168.25.31:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@9169c5c
+2018-12-11 15:32:28 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:32:29 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:32:30 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:32:31 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:32:32 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:32:33 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:32:34 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:32:35 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:32:36 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:32:37 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:32:39 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:32:40 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 15:32:41 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:33:55 [INFO]-[org.springframework.web.context.ContextLoader] Root WebApplicationContext: initialization started
+2018-12-11 15:33:55 [INFO]-[org.springframework.web.context.support.XmlWebApplicationContext] Refreshing Root WebApplicationContext: startup date [Tue Dec 11 15:33:55 CST 2018]; root of context hierarchy
+2018-12-11 15:33:55 [INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [D:\e3\e3-manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+2018-12-11 15:33:55 [INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [D:\e3\e3-manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+2018-12-11 15:33:55 [INFO]-[com.alibaba.dubbo.common.logger.LoggerFactory] using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-12-11 15:33:55 [INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [D:\e3\e3-manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+2018-12-11 15:33:55 [INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer] Loading properties file from file [D:\e3\e3-manager\e3-manager-service\target\classes\conf\db.properties]
+2018-12-11 15:33:55 [INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer] Loading properties file from file [D:\e3\e3-manager\e3-manager-service\target\classes\conf\log4j.properties]
+2018-12-11 15:33:55 [INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-11 15:33:55 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2018-12-11 15:33:56 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] The service ready on spring started. service: cn.e3mall.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:33:56 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Export dubbo service cn.e3mall.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:33:56 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Export dubbo service cn.e3mall.service.ItemService to url dubbo://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=19192&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544513636743, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:33:56 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Register dubbo service cn.e3mall.service.ItemService url dubbo://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=19192&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544513636743 to registry registry://192.168.25.31:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=19192&registry=zookeeper&timestamp=1544513636731, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:33:56 [INFO]-[com.alibaba.dubbo.remoting.transport.AbstractServer]  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.25.1:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:33:56 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Load registry store file C:\Users\mr.luo\.dubbo\dubbo-registry-192.168.25.31.cache, data: {cn.e3mall.content.service.ContentCategoryService=empty://192.168.25.1/cn.e3mall.content.service.ContentCategoryService?application=e3-manager-web&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentCategoryService&methods=addContentCategory,delContentCategory,getContentCatList,updContentCategory&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426262482 empty://192.168.25.1/cn.e3mall.content.service.ContentCategoryService?application=e3-manager-web&category=routers&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentCategoryService&methods=addContentCategory,delContentCategory,getContentCatList,updContentCategory&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426262482 dubbo://192.168.25.1:20881/cn.e3mall.content.service.ContentCategoryService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentCategoryService&methods=addContentCategory,delContentCategory,getContentCatList,updContentCategory&pid=13468&side=provider&timeout=600000&timestamp=1544426228845, cn.e3mall.content.service.ContentService=empty://192.168.25.1/cn.e3mall.content.service.ContentService?application=e3-manager-web&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentService&methods=delContent,getContentList,updContent,addContent&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271839 empty://192.168.25.1/cn.e3mall.content.service.ContentService?application=e3-manager-web&category=routers&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentService&methods=delContent,getContentList,updContent,addContent&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271839 dubbo://192.168.25.1:20881/cn.e3mall.content.service.ContentService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentService&methods=delContent,getContentList,updContent,addContent&pid=13468&side=provider&timeout=600000&timestamp=1544426238455, cn.e3mall.service.ItemService=empty://192.168.25.1/cn.e3mall.service.ItemService?application=e3-manager-web&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271921 empty://192.168.25.1/cn.e3mall.service.ItemService?application=e3-manager-web&category=routers&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271921 empty://192.168.25.1/cn.e3mall.service.ItemService?application=e3-manager-web&category=providers&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271921, cn.e3mall.service.ItemCatService=empty://192.168.25.1/cn.e3mall.service.ItemCatService?application=e3-manager-web&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271880 empty://192.168.25.1/cn.e3mall.service.ItemCatService?application=e3-manager-web&category=routers&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271880 empty://192.168.25.1/cn.e3mall.service.ItemCatService?application=e3-manager-web&category=providers&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=16944&revision=1.0-SNAPSHOT&side=consumer&timestamp=1544426271880}, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:33:57 [INFO]-[org.I0Itec.zkclient.ZkEventThread] Starting ZkClient event thread.
+2018-12-11 15:34:06 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2018-12-11 15:34:06 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:host.name=DESKTOP-VCA5PST
+2018-12-11 15:34:06 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.version=1.8.0_191
+2018-12-11 15:34:06 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.vendor=Oracle Corporation
+2018-12-11 15:34:06 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.home=C:\Program Files\Java\jdk1.8.0_191\jre
+2018-12-11 15:34:06 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.class.path=D:\apache-maven-3.5.4\boot\plexus-classworlds-2.5.2.jar;D:\IntelliJ IDEA 2018.2.5\lib\idea_rt.jar
+2018-12-11 15:34:06 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Program Files (x86)\Java\jdk1.7.0_75\jre\bin;C:\WINDOWS\System32\OpenSSH\;D:\apache-maven-3.5.4\bin;C:\Program Files\Git\cmd;C:\Users\mr.luo\AppData\Local\Microsoft\WindowsApps;;.
+2018-12-11 15:34:06 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.io.tmpdir=C:\Users\mr.luo\AppData\Local\Temp\
+2018-12-11 15:34:06 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.compiler=<NA>
+2018-12-11 15:34:06 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:os.name=Windows 10
+2018-12-11 15:34:06 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:os.arch=amd64
+2018-12-11 15:34:06 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:os.version=10.0
+2018-12-11 15:34:06 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:user.name=mr.luo
+2018-12-11 15:34:06 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:user.home=C:\Users\mr.luo
+2018-12-11 15:34:06 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:user.dir=D:\e3\e3-manager\e3-manager-service
+2018-12-11 15:34:06 [INFO]-[org.apache.zookeeper.ZooKeeper] Initiating client connection, connectString=192.168.25.31:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@5645d5f1
+2018-12-11 15:34:06 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:34:06 [INFO]-[org.apache.zookeeper.ClientCnxn] Socket connection established to 192.168.25.31/192.168.25.31:2181, initiating session
+2018-12-11 15:34:06 [INFO]-[org.apache.zookeeper.ClientCnxn] Session establishment complete on server 192.168.25.31/192.168.25.31:2181, sessionid = 0x167970c79530000, negotiated timeout = 30000
+2018-12-11 15:34:06 [INFO]-[org.I0Itec.zkclient.ZkClient] zookeeper state changed (SyncConnected)
+2018-12-11 15:34:06 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Register: dubbo://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=19192&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544513636743, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:34:06 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Subscribe: provider://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=19192&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544513636743, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:34:06 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Notify urls for subscribe url provider://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=19192&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544513636743, urls: [empty://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=19192&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544513636743], dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:34:06 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] The service ready on spring started. service: cn.e3mall.service.ItemCatService, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:34:06 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Export dubbo service cn.e3mall.service.ItemCatService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:34:06 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Export dubbo service cn.e3mall.service.ItemCatService to url dubbo://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=19192&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544513646439, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:34:06 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Register dubbo service cn.e3mall.service.ItemCatService url dubbo://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=19192&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544513646439 to registry registry://192.168.25.31:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=19192&registry=zookeeper&timestamp=1544513646437, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:34:06 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Register: dubbo://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=19192&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544513646439, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:34:06 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Subscribe: provider://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=19192&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544513646439, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:34:06 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Notify urls for subscribe url provider://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=19192&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544513646439, urls: [empty://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=19192&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544513646439], dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:34:06 [INFO]-[org.springframework.web.context.ContextLoader] Root WebApplicationContext: initialization completed in 11393 ms
+2018-12-11 15:48:11 [INFO]-[org.springframework.web.context.ContextLoader] Root WebApplicationContext: initialization started
+2018-12-11 15:48:12 [INFO]-[org.springframework.web.context.support.XmlWebApplicationContext] Refreshing Root WebApplicationContext: startup date [Tue Dec 11 15:48:12 CST 2018]; root of context hierarchy
+2018-12-11 15:48:12 [INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [D:\e3\e3-manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+2018-12-11 15:48:12 [INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [D:\e3\e3-manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+2018-12-11 15:48:12 [INFO]-[com.alibaba.dubbo.common.logger.LoggerFactory] using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-12-11 15:48:12 [INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from file [D:\e3\e3-manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+2018-12-11 15:48:13 [INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer] Loading properties file from file [D:\e3\e3-manager\e3-manager-service\target\classes\conf\db.properties]
+2018-12-11 15:48:13 [INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer] Loading properties file from file [D:\e3\e3-manager\e3-manager-service\target\classes\conf\log4j.properties]
+2018-12-11 15:48:13 [INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-11 15:48:14 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2018-12-11 15:48:17 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] The service ready on spring started. service: cn.e3mall.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:48:17 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Export dubbo service cn.e3mall.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:48:17 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Export dubbo service cn.e3mall.service.ItemService to url dubbo://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514497278, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:48:17 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Register dubbo service cn.e3mall.service.ItemService url dubbo://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514497278 to registry registry://192.168.25.31:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=9212&registry=zookeeper&timestamp=1544514497174, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:48:17 [INFO]-[com.alibaba.dubbo.remoting.transport.AbstractServer]  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.25.1:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:48:17 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Load registry store file C:\Users\mr.luo\.dubbo\dubbo-registry-192.168.25.31.cache, data: {cn.e3mall.content.service.ContentCategoryService=empty://192.168.25.1:20881/cn.e3mall.content.service.ContentCategoryService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentCategoryService&methods=addContentCategory,delContentCategory,getContentCatList,updContentCategory&pid=12592&side=provider&timeout=600000&timestamp=1544513888524, cn.e3mall.content.service.ContentService=empty://192.168.25.1:20881/cn.e3mall.content.service.ContentService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.content.service.ContentService&methods=delContent,getContentList,updContent,addContent&pid=12592&side=provider&timeout=600000&timestamp=1544513898146, cn.e3mall.service.ItemService=empty://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=19192&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544513636743, cn.e3mall.service.ItemCatService=empty://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=19192&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544513646439}, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:48:18 [INFO]-[org.I0Itec.zkclient.ZkEventThread] Starting ZkClient event thread.
+2018-12-11 15:48:27 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2018-12-11 15:48:27 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:host.name=DESKTOP-VCA5PST
+2018-12-11 15:48:27 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.version=1.8.0_191
+2018-12-11 15:48:27 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.vendor=Oracle Corporation
+2018-12-11 15:48:27 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.home=C:\Program Files\Java\jdk1.8.0_191\jre
+2018-12-11 15:48:27 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.class.path=D:\apache-maven-3.5.4\boot\plexus-classworlds-2.5.2.jar;D:\IntelliJ IDEA 2018.2.5\lib\idea_rt.jar
+2018-12-11 15:48:27 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Program Files (x86)\Java\jdk1.7.0_75\jre\bin;C:\WINDOWS\System32\OpenSSH\;D:\apache-maven-3.5.4\bin;C:\Program Files\Git\cmd;C:\Users\mr.luo\AppData\Local\Microsoft\WindowsApps;;.
+2018-12-11 15:48:27 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.io.tmpdir=C:\Users\mr.luo\AppData\Local\Temp\
+2018-12-11 15:48:27 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:java.compiler=<NA>
+2018-12-11 15:48:27 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:os.name=Windows 10
+2018-12-11 15:48:27 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:os.arch=amd64
+2018-12-11 15:48:27 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:os.version=10.0
+2018-12-11 15:48:27 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:user.name=mr.luo
+2018-12-11 15:48:27 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:user.home=C:\Users\mr.luo
+2018-12-11 15:48:27 [INFO]-[org.apache.zookeeper.ZooKeeper] Client environment:user.dir=D:\e3\e3-manager\e3-manager-service
+2018-12-11 15:48:27 [INFO]-[org.apache.zookeeper.ZooKeeper] Initiating client connection, connectString=192.168.25.31:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@50a81b38
+2018-12-11 15:48:27 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 15:48:27 [INFO]-[org.apache.zookeeper.ClientCnxn] Socket connection established to 192.168.25.31/192.168.25.31:2181, initiating session
+2018-12-11 15:48:27 [INFO]-[org.apache.zookeeper.ClientCnxn] Session establishment complete on server 192.168.25.31/192.168.25.31:2181, sessionid = 0x167970c79530002, negotiated timeout = 30000
+2018-12-11 15:48:27 [INFO]-[org.I0Itec.zkclient.ZkClient] zookeeper state changed (SyncConnected)
+2018-12-11 15:48:27 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Register: dubbo://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514497278, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:48:27 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Subscribe: provider://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514497278, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:48:27 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Notify urls for subscribe url provider://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514497278, urls: [empty://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514497278], dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:48:27 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] The service ready on spring started. service: cn.e3mall.service.ItemCatService, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:48:27 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Export dubbo service cn.e3mall.service.ItemCatService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:48:27 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Export dubbo service cn.e3mall.service.ItemCatService to url dubbo://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514507558, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:48:27 [INFO]-[com.alibaba.dubbo.config.AbstractConfig]  [DUBBO] Register dubbo service cn.e3mall.service.ItemCatService url dubbo://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514507558 to registry registry://192.168.25.31:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=9212&registry=zookeeper&timestamp=1544514507557, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:48:27 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Register: dubbo://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514507558, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:48:27 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Subscribe: provider://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514507558, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:48:27 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Notify urls for subscribe url provider://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514507558, urls: [empty://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514507558], dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 15:48:27 [INFO]-[org.springframework.web.context.ContextLoader] Root WebApplicationContext: initialization completed in 15811 ms
+2018-12-11 16:03:17 [WARN]-[org.apache.zookeeper.ClientCnxn] Client session timed out, have not heard from server in 20000ms for sessionid 0x167970c79530002
+2018-12-11 16:03:17 [INFO]-[org.apache.zookeeper.ClientCnxn] Client session timed out, have not heard from server in 20000ms for sessionid 0x167970c79530002, closing socket connection and attempting reconnect
+2018-12-11 16:03:17 [INFO]-[org.I0Itec.zkclient.ZkClient] zookeeper state changed (Disconnected)
+2018-12-11 16:03:19 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:03:40 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:03:42 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:04:03 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:04:05 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:04:26 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:04:27 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:04:48 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:04:50 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:05:11 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:05:13 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:05:34 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:05:35 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:05:56 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:05:58 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:06:19 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:06:20 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:06:42 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:06:43 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:07:04 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:07:05 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:07:26 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:07:28 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:07:49 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:07:51 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:08:12 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:08:13 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:08:34 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:08:36 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:08:57 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:08:59 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:09:20 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:09:22 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:09:43 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:09:45 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:10:06 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:10:08 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:10:29 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:10:31 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:10:52 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:10:53 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:11:14 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:11:16 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:11:37 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:11:39 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:12:00 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:12:02 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:12:23 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:12:25 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:12:46 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:12:47 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:13:08 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:13:10 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:13:31 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:13:33 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:13:54 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:13:56 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:14:17 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:14:19 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:14:40 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:14:42 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:15:03 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:15:05 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:15:26 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:15:27 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:15:49 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:15:50 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:16:12 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:16:13 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:16:34 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:16:36 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:16:57 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:16:58 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:17:20 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:17:21 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:17:42 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:17:44 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:18:05 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:18:07 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:18:28 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:18:29 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:18:50 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:18:51 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:19:12 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:19:14 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:19:35 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:19:37 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:19:58 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:20:00 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:20:21 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:20:23 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:20:44 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:20:45 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:21:06 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:21:08 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:21:29 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:21:30 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:21:52 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:21:53 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:22:15 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:22:16 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:22:37 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:22:39 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:23:01 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:23:02 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:23:23 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:23:25 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:23:46 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:23:47 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:24:09 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:24:11 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:24:32 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:24:33 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:24:54 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:24:56 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:25:17 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:25:19 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:25:40 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:25:42 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:26:03 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:26:04 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:26:26 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:26:28 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:26:49 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:26:51 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:27:12 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:27:14 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:27:35 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:27:37 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:27:58 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:28:00 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:28:21 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:28:22 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:28:43 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:28:45 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:29:06 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:29:08 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:29:29 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:29:30 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:29:51 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:29:53 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:30:14 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:30:15 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:30:37 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:30:38 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:30:59 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:31:01 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:31:22 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:31:23 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:31:44 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:31:46 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:32:07 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:32:09 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:32:31 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:32:32 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:32:53 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:32:55 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:33:16 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:33:18 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:33:39 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:33:41 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:34:02 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:34:04 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:34:25 [WARN]-[org.apache.zookeeper.ClientCnxn] Session 0x167970c79530002 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2018-12-11 16:34:26 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:34:26 [INFO]-[org.apache.zookeeper.ClientCnxn] Socket connection established to 192.168.25.31/192.168.25.31:2181, initiating session
+2018-12-11 16:34:26 [WARN]-[org.apache.zookeeper.ClientCnxn] Unable to reconnect to ZooKeeper service, session 0x167970c79530002 has expired
+2018-12-11 16:34:26 [INFO]-[org.apache.zookeeper.ClientCnxn] Unable to reconnect to ZooKeeper service, session 0x167970c79530002 has expired, closing socket connection
+2018-12-11 16:34:26 [INFO]-[org.I0Itec.zkclient.ZkClient] zookeeper state changed (Expired)
+2018-12-11 16:34:26 [INFO]-[org.apache.zookeeper.ZooKeeper] Initiating client connection, connectString=192.168.25.31:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@50a81b38
+2018-12-11 16:34:27 [INFO]-[org.apache.zookeeper.ClientCnxn] Opening socket connection to server 192.168.25.31/192.168.25.31:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-12-11 16:34:27 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Recover register url [dubbo://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514507558, dubbo://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514497278], dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 16:34:27 [INFO]-[org.apache.zookeeper.ClientCnxn] Socket connection established to 192.168.25.31/192.168.25.31:2181, initiating session
+2018-12-11 16:34:27 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Recover subscribe url [provider://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514507558, provider://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514497278], dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 16:34:27 [INFO]-[org.apache.zookeeper.ClientCnxn] Session establishment complete on server 192.168.25.31/192.168.25.31:2181, sessionid = 0x167970c79530004, negotiated timeout = 30000
+2018-12-11 16:34:27 [INFO]-[org.I0Itec.zkclient.ZkClient] zookeeper state changed (SyncConnected)
+2018-12-11 16:34:27 [INFO]-[org.apache.zookeeper.ClientCnxn] EventThread shut down for session: 0x167970c79530002
+2018-12-11 16:34:27 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Notify urls for subscribe url provider://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514507558, urls: [empty://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514507558], dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 16:34:27 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Notify urls for subscribe url provider://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514497278, urls: [empty://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514497278], dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 16:34:28 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Retry register [dubbo://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514507558, dubbo://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514497278], dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 16:34:29 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Retry subscribe {provider://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514507558=[com.alibaba.dubbo.registry.integration.RegistryProtocol$OverrideListener@9dafaae], provider://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514497278=[com.alibaba.dubbo.registry.integration.RegistryProtocol$OverrideListener@d7563f0]}, dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 16:34:29 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Notify urls for subscribe url provider://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514507558, urls: [empty://192.168.25.1:20880/cn.e3mall.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemCatService&methods=getItemCatlist&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514507558], dubbo version: 2.5.3, current host: 127.0.0.1
+2018-12-11 16:34:29 [INFO]-[com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry]  [DUBBO] Notify urls for subscribe url provider://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514497278, urls: [empty://192.168.25.1:20880/cn.e3mall.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=cn.e3mall.service.ItemService&methods=addItem,getItemList,reshelf,delItem,updItem,getItemDesc,getItemById,instock&pid=9212&revision=1.0-SNAPSHOT&side=provider&timeout=600000&timestamp=1544514497278], dubbo version: 2.5.3, current host: 127.0.0.1
